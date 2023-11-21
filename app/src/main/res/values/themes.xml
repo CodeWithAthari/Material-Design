@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MaterialButtons" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#129227</item>
+         <item name="colorPrimaryContainer">@color/colorSuperLight</item>
+         <item name="colorSecondaryContainer">@color/colorSuperLight</item>
+
+
+    </style>
+
+    <style name="textInputFilledStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <!--Text Fields-->
+        <item name="boxBackgroundColor">?attr/colorPrimaryContainer</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    <style name="textInputFilledStyle.DropDown" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu">
+        <!--Text Fields-->
+        <item name="boxBackgroundColor">?attr/colorPrimaryContainer</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="Theme.MaterialButtons" parent="Base.Theme.MaterialButtons" />
+</resources>
