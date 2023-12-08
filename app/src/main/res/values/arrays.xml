@@ -4,4 +4,9 @@
         <item>Male</item>
         <item>Female</item>
     </string-array>
+    <string-array name="rail_menu_gravity" >
+        <item>Top</item>
+        <item>Center</item>
+        <item>Bottom</item>
+    </string-array>
 </resources>

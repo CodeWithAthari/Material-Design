@@ -7,7 +7,7 @@
     android:background="#F1FFF3"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
+<!--Migrate this code to another activity in the final version-->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_toggle_fab"
         android:layout_width="wrap_content"

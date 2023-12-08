@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="item 1" />
+    <item android:title="item 2" />
+    <item android:title="item 3" />
+    <item android:title="item 4" />
+
+
+    <item
+        android:icon="@drawable/ic_mic"
+        android:title="Voice Search"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/ic_person"
+        android:title="User"
+        app:showAsAction="always" />
+
+</menu>

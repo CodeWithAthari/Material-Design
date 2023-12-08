@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:checkable="true"
+        android:id="@+id/nav_menu_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="Home" />
+
+    <item
+        android:checkable="true"
+        android:id="@+id/nav_menu_explore"
+        android:icon="@drawable/ic_menu_explore"
+        android:title="Explore" />
+
+    <item
+        android:checkable="true"
+        android:id="@+id/nav_menu_subscription"
+        android:icon="@drawable/ic_menu_subscription"
+        android:title="Subscriptions" />
+
+    <item
+        android:checkable="true"
+        android:id="@+id/nav_menu_video_library"
+        android:icon="@drawable/ic_menu_video_library"
+        android:title="Video Library" />
+
+<item
+    android:title="Other Options"
+    >
+    <menu>
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_menu_account"
+            android:icon="@drawable/ic_menu_account"
+            android:title="My Account" />
+
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_menu_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="Settings" />
+    </menu>
+</item>
+</menu>
+
+
+
+
+
+
+
+
+
+
+
+
